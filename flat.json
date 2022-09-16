@@ -1,0 +1,28 @@
+{
+  "name": "Flast",
+  "version": "0.1.0",
+  "description": "Flat AST",
+  "author": "Braden Steffaniak",
+  "license": "ISC",
+  "defaultTarget": "es6",
+  "scripts": {
+    "test": "node dist/test.js"
+  },
+  "sources": {
+    "main": {
+      "mainClass": "flat/flast/Flast",
+      "source": "src",
+      "dependencies": {
+        "github:FlatLang/System": "master",
+        "github:FlatLang/IO": "master"
+      }
+    },
+    "test": {
+      "mainClass": "flat/flast/Flast_TestSuite",
+      "source": "src/**/*_Test*.flat",
+      "dependencies": {
+        "github:FlatLang/Nest": "master"
+      }
+    }
+  }
+}

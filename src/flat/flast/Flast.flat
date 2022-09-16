@@ -1,0 +1,7 @@
+package flat/flast
+
+class {
+  public static main(String[] args) {
+
+  }
+}

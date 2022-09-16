@@ -1,0 +1,11 @@
+package flat/flast
+
+import flat/flast/Flast
+
+testable class {
+  test `can create`() {
+    let value = Flast()
+
+    expect(value).toNotBe(null)
+  }
+}
