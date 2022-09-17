@@ -1,0 +1,13 @@
+package flat/flast/tree
+
+import flatlang/io/File
+
+data class extends Node {
+  override visible FileNode fileNode => this
+
+  public construct(
+    visible File file
+  ) {
+
+  }
+}

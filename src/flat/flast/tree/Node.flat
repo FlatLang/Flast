@@ -1,0 +1,12 @@
+package flat/flast/tree
+
+data class {
+  visible lazy FileNode fileNode => parent?.fileNode
+
+  public construct(
+    visible Node parent,
+    visible Node[] children
+  ) {
+
+  }
+}
