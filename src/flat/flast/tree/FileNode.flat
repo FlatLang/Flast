@@ -1,6 +1,6 @@
 package flat/flast/tree
 
-import flatlang/io/File
+import flat/io/File
 
 data class extends Node {
   override visible FileNode fileNode => this
