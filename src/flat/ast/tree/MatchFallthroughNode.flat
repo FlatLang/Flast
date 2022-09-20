@@ -1,4 +1,4 @@
-package flat/flast/tree
+package flat/ast/tree
 
 data class extends MatchCaseNode {
   public construct() {

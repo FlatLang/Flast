@@ -1,7 +1,7 @@
 {
-  "name": "Flast",
+  "name": "Flat-AST",
   "version": "0.1.0",
-  "description": "Flat AST",
+  "description": "Flat Compiler AST",
   "author": "Braden Steffaniak",
   "license": "ISC",
   "defaultTarget": "es6",
@@ -10,7 +10,7 @@
   },
   "sources": {
     "main": {
-      "mainClass": "flat/flast/Flast",
+      "mainClass": "flat/ast/Ast",
       "source": "src",
       "dependencies": {
         "github:FlatLang/System": "master",
@@ -18,7 +18,7 @@
       }
     },
     "test": {
-      "mainClass": "flat/flast/Flast_TestSuite",
+      "mainClass": "flat/ast/Ast_TestSuite",
       "source": "src/**/*_Test*.flat",
       "dependencies": {
         "github:FlatLang/Nest": "master"

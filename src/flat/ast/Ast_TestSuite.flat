@@ -1,17 +1,17 @@
-package flat/flast
+package flat/ast
 
 import novex/nest/TestResult
 
 import flat/time/Timer
 import flat/io/FancyOutputStream
-import flat/flast/Flast
+import flat/ast/Ast
 
 [TestSuite [
-  Flast_Test
+  Ast_Test
 ]]
 class {
   public static async main(String args[]) {
-    let test = Flast_TestSuite()
+    let test = Ast_TestSuite()
 
     Timer timer = Timer().start()
 

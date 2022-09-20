@@ -1,10 +1,10 @@
-package flat/flast
+package flat/ast
 
-import flat/flast/Flast
+import flat/ast/Ast
 
 testable class {
   test `can create`() {
-    let value = Flast()
+    let value = Ast()
 
     expect(value).toNotBe(null)
   }

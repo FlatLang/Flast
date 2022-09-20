@@ -1,7 +1,0 @@
-package flat/flast/tree
-
-data class extends Node {
-  public construct() {
-
-  }
-}

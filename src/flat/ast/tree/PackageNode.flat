@@ -1,0 +1,7 @@
+package flat/ast/tree
+
+data class extends Node {
+  public construct(visible String location) {
+
+  }
+}
