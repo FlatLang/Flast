@@ -1,7 +1,9 @@
 package flat/ast
 
 data class extends Node {
-  public construct() {
+  public construct(
+    visible String name
+  ) {
 
   }
 }
