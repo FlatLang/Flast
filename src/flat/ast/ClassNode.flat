@@ -2,7 +2,8 @@ package flat/ast
 
 data class extends Node {
   public construct(
-    visible String name
+    visible String name,
+    visible Bool implicitName
   ) {
 
   }
