@@ -1,0 +1,9 @@
+package flat/ast/annotations
+
+import flat/ast/Node
+
+data class extends Node {
+  public construct() {
+
+  }
+}
