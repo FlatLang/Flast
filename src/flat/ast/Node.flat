@@ -1,12 +1,8 @@
 package flat/ast
 
 data class {
+  visible Node parent
+  visible Node[] children = Array<Node>()
+
   visible lazy FileNode fileNode => parent?.fileNode
-
-  public construct(
-    visible Node parent = null,
-    visible Node[] children = Array<Node>()
-  ) {
-
-  }
 }
