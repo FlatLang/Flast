@@ -1,5 +1,4 @@
 package flat/ast
 
 data class extends VariableDeclarationNode {
-  visible String name
 }
