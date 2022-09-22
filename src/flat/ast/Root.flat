@@ -1,7 +1,4 @@
 package flat/ast
 
 data class {
-  public construct() {
-
-  }
 }
