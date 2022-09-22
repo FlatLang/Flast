@@ -1,0 +1,8 @@
+package flat/ast
+
+data class extends VariableDeclarationNode {
+  public construct(
+    visible String name,
+    this String type
+  ) {}
+}
