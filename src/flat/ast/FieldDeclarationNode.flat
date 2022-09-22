@@ -1,7 +1,0 @@
-package flat/ast
-
-data class extends Node, Expression {
-  public construct() {
-
-  }
-}
