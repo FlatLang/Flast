@@ -1,7 +1,5 @@
 package flat/ast
 
 data class extends Node {
-  public construct(
-    visible String identifier
-  ) {}
+  let visible lazy String identifier => null
 }
