@@ -1,0 +1,14 @@
+package flat/ast
+
+data class extends Node, Expression {
+  visible String value
+  visible Int literalType
+
+
+  public class Type {
+    visible static Int STRING = 1
+    visible static Int INTEGER = 2
+    visible static Int FLOAT = 3
+    visible static Int NULL = 4
+  }
+}
