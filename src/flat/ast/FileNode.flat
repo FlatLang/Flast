@@ -3,7 +3,5 @@ package flat/ast
 import flat/io/File
 
 data class extends Node {
-  override visible FileNode fileNode => this
-
   visible File file
 }
