@@ -1,4 +1,5 @@
 package flat/ast
 
 data class extends VariableDeclarationNode {
+  visible Bool requireName = false
 }
