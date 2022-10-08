@@ -1,0 +1,7 @@
+package flat/ast
+
+data class extends Node {
+  visible String type
+  visible String name
+  visible Int arrayDimensions = 0
+}
