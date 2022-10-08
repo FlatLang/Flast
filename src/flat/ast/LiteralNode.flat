@@ -11,5 +11,6 @@ data class extends Node, Expression {
     visible static Int FLOAT = 3
     visible static Int NULL = 4
     visible static Int BOOL = 5
+    visible static Int CHAR = 6
   }
 }
