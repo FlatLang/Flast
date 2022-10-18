@@ -1,4 +1,0 @@
-package flat/ast
-
-data class extends ScopeNode, Expression {
-}
