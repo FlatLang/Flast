@@ -1,5 +1,6 @@
 package flat/ast
 
 data class extends Node {
-  let visible lazy String identifier => null
+  static visible lazy String identifier => null
+  static visible lazy Array<Class<Node>> allowedNodeContexts => null
 }
