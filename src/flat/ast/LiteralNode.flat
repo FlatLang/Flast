@@ -1,9 +1,8 @@
 package flat/ast
 
-data class extends Node, Expression {
+data class extends Node implements Expression {
   visible String value
   visible Int literalType
-
 
   public class Type {
     visible static Int STRING = 1

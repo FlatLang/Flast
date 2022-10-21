@@ -1,4 +1,4 @@
 package flat/ast
 
-data class extends Node, Expression {
+data class extends Node implements Expression {
 }

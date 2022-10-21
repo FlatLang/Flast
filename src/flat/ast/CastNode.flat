@@ -1,6 +1,6 @@
 package flat/ast
 
-data class extends Node, Expression {
+data class extends Node implements Expression {
   visible String type
   visible Int arrayDimensions = 0
 }
