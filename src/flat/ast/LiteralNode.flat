@@ -4,7 +4,7 @@ data class extends Node implements Expression {
   visible String value
   visible Int literalType
 
-  public class Type {
+  class Type {
     visible static Int STRING = 1
     visible static Int INTEGER = 2
     visible static Int FLOAT = 3
