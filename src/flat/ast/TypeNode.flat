@@ -2,5 +2,4 @@ package flat/ast
 
 data class extends Node {
   visible String name
-  visible Int arrayDimensions = 0
 }

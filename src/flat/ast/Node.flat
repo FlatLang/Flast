@@ -1,6 +1,4 @@
 package flat/ast
 
 data class {
-  visible Node[] children = Array<Node>()
-  visible AnnotationNode[] annotations = Array<AnnotationNode>()
 }

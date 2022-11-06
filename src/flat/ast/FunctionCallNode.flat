@@ -1,5 +1,4 @@
 package flat/ast
 
 data class extends Node implements Expression {
-  visible String name
 }
