@@ -1,6 +1,8 @@
 package flat/ast
 
+import flat/compiler/models
+
 data class extends Node {
   visible String location
-  visible Bool staticImport = false
+  visible Token type
 }
