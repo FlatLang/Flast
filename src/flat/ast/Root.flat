@@ -1,5 +1,5 @@
 package flat/ast
 
 data class {
-  visible FileNode[] files = FileNode[]
+    visible FileNode[] files = FileNode[]
 }

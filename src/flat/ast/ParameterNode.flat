@@ -3,5 +3,5 @@ package flat/ast
 import flat/compiler/models
 
 data class extends VariableDeclarationNode {
-  visible Token requireName
+    visible Token requireName
 }

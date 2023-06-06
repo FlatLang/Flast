@@ -3,5 +3,5 @@ package flat/ast
 import flat/compiler/models
 
 data class extends LiteralNode {
-  visible Token value
+    visible Token value
 }

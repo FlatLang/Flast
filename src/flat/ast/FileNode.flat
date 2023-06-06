@@ -3,5 +3,5 @@ package flat/ast
 import flat/io/File
 
 data class extends Node {
-  visible File file
+    visible File file
 }

@@ -3,5 +3,5 @@ package flat/ast
 import flat/compiler/models
 
 data class extends Node implements Expression {
-  visible Token name
+    visible Token name
 }

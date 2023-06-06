@@ -3,9 +3,9 @@ package flat/ast
 import flat/ast/Ast
 
 testable class {
-  test `can create`() {
-    let value = Ast()
+    test `can create`() {
+        let value = Ast()
 
-    expect(value).toNotBe(null)
-  }
+        expect(value).toNotBe(null)
+    }
 }
